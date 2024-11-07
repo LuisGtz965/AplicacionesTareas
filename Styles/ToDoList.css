@@ -1,0 +1,78 @@
+.texto-header {
+  text-align: center;
+}
+
+.contenedor-doble {
+  display: flex;
+  justify-content: center;
+}
+
+.input-tarea {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+.boton-agregar {
+  margin: 20px;
+  background: blue;
+  border-radius: 10px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-tareas li {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-tareas li.completada {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.boton-tarea {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.boton-tarea:hover {
+  background-color: red;
+}
